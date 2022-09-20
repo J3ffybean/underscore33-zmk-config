@@ -61,14 +61,14 @@ behaviors {
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  E  |  R  |  T   |  Y  |  U   |  I  |  O  |  P  |
-// |  A  |  S  |  D  |  F  |  G   |  H  |  J   |  K  |  L  |  ;  |
-// |  Z  |  X  |  C  |  V  |  B   |  N  |  M   |  ,  |  .  |  /  |
+// |  Q  |  W  |  F  |  P  |  B   |  J  |  L   |  I  |  O  |  P  |
+// |  A  |  R  |  S  |  T  |  G   |  M  |  N   |  E  |  I  |  O  |
+// |  Z  |  X  |  C  |  D  |  V   |  K  |  H   |  ,  |  .  |  /  |
 //             | CTL | ALT |  ENT | SPC | GUI  | CTL |
                         bindings = <
-   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
-   &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &kp H &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI
-   &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
+   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U    &kp Y   &kp SEMI
+   &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RCTRL E  &hm LALT I  &hm RGUI O
+   &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
    &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &kp RGUI &kp RCTRL
                         >;
                 };
