@@ -74,7 +74,7 @@ behaviors {
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U    &kp Y   &kp SEMI
    &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RALT E  &hm RCTRL I  &hm RGUI O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &kp RGUI &kp RCTRL
+   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &kp RGUI &tog 3
                         >;
                 };
 
