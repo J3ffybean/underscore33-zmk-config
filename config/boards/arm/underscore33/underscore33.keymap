@@ -108,14 +108,14 @@ behaviors {
 
                 nmp_layer {
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  F  |  P  |  B   |  J  |  L   |  I  |  O  |  P  |
-// |  A  |  R  |  S  |  T  |  G   |  M  |  N   |  E  |  I  |  O  |
-// |  Z  |  X  |  C  |  D  |  V   |  K  |  H   |  ,  |  .  |  /  |
-//             | CTL | ALT |  ENT | SPC | GUI  | CTL |
+// |  /  |  -  |  7  |  8  |  9   |  S  |  I   |  T  |  F5  |  F6  |
+// |  *  |  +  |  4  |  5  |  6   |  D  |  O   |  W  |  F3  |  F4  |
+// |  .  | ENT |  1  |  2  |  3   |  N  |  Y   |  <  |  F1  |  F2  |
+//             | CTL | ALT |  0 | SPC | GUI  | CTL |
                         bindings = <
-   &kp N1    &kp N2    &kp N3    &kp N4      &kp N5      &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
-   &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR  &kp PRCNT   &kp CARET &kp AMPS  &kp STAR  &kp EQUAL  &kp MINUS
-   &kp BSLH  &kp LBRC  &kp LBKT  &kp LPAR    &kp UNDER   &kp RPAR  &kp RBKT  &kp UNDER &kp DOT    &kp GRAVE
+   &kp FLSH  &kp MINUS &kp N7   &kp N8      &kp N9     &kp S    &kp I    &kp T    &kp F5     &kp F6
+   &kp STAR  &kp PLUS  &kp N4   &kp N5      &kp N6     &kp D    &kp O    &kp W    &kp F3     &kp F4
+   &kp DOT   &kp ENT   &kp N1   &kp N2      &kp N3     &kp N    &k p LT  &kp Y    &kp F1     &kp F2
    &trans    &trans    &trans    &trans      &trans      &trans
                         >;
                 };
