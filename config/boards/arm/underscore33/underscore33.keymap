@@ -53,6 +53,13 @@ behaviors {
         layers = <0>;
 
     };
+    combo_apos {
+        timeout-ms = <50>;
+        key-positions = <18 19>;
+        bindings = <&kp APOS>;
+        layers = <0>;
+
+    };
 };
 
 };
@@ -61,15 +68,15 @@ behaviors {
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  E  |  R  |  T   |  Y  |  U   |  I  |  O  |  P  |
-// |  A  |  S  |  D  |  F  |  G   |  H  |  J   |  K  |  L  |  ;  |
-// |  Z  |  X  |  C  |  V  |  B   |  N  |  M   |  ,  |  .  |  /  |
+// |  Q  |  W  |  F  |  P  |  B   |  J  |  L   |  I  |  O  |  P  |
+// |  A  |  R  |  S  |  T  |  G   |  M  |  N   |  E  |  I  |  O  |
+// |  Z  |  X  |  C  |  D  |  V   |  K  |  H   |  ,  |  .  |  /  |
 //             | CTL | ALT |  ENT | SPC | GUI  | CTL |
                         bindings = <
-   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
-   &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &kp H &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI
-   &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
-   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &kp RGUI &kp RCTRL
+   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U    &kp Y   &kp SEMI
+   &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RALT E  &hm RCTRL I  &hm RGUI O
+   &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
+   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &kp RGUI &tog 3
                         >;
                 };
 
@@ -98,6 +105,20 @@ behaviors {
    &bt BT_SEL 0 &kp K_CMENU &trans  &trans &trans     &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT &kp END
    &bt BT_SEL 1 &bootloader &trans  &trans &trans     &trans    &trans    &trans    &trans    &trans
    &trans   &trans    &trans     &trans   &trans   &trans
+                        >;
+                };
+
+                nmp_layer {
+// -----------------------------------------------------------------------------------------
+// |  /  |  -  |  7  |  8  |  9   |  S  |  I   |  T  |  F5  |  F6  |
+// |  *  |  +  |  4  |  5  |  6   |  D  |  O   |  W  |  F3  |  F4  |
+// |  .  | ENT |  1  |  2  |  3   |  N  |  Y   |  <  |  F1  |  F2  |
+//             | CTL | ALT |  0 | SPC | GUI  | CTL |
+                        bindings = <
+   &kp FLSH  &kp MINUS &kp N7   &kp N8      &kp N9     &kp S    &kp I    &kp T    &kp F5     &kp F6
+   &kp STAR  &kp PLUS  &kp N4   &kp N5      &kp N6     &kp D    &kp O    &kp W    &kp F3     &kp F4
+   &kp DOT   &kp ENT   &kp N1   &kp N2      &kp N3     &kp N    &k p LT  &kp Y    &kp F1     &kp F2
+   &trans    &trans    &trans    &trans      &trans      &trans
                         >;
                 };
 
