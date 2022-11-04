@@ -103,7 +103,7 @@ behaviors {
    &bt BT_SEL 0 &kp K_CMENU &trans  &trans &trans     &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT &kp END
    &bt BT_SEL 1 &bootloader &trans  &trans &trans     &trans    &trans    &trans    &trans    &trans
    &trans   &trans    &trans     &trans   &trans   &trans
-   >;
+                        >;
                 };
 
                 nmp_layer {
@@ -115,7 +115,7 @@ behaviors {
                         bindings = <
    &kp FSLH  &kp MINUS &kp N7   &kp N8      &kp N9     &kp S    &kp I    &kp T    &kp F5     &kp F6
    &kp STAR  &kp PLUS  &kp N4   &kp N5      &kp N6     &kp D    &kp O    &kp W    &kp F3     &kp F4
-   &kp DOT   &kp RET   &kp N1   &kp N2      &kp N3     &kp N    &kp LT  &kp Y    &kp F1     &kp F2
+   &kp DOT   &kp RET   &kp N1   &kp N2      &kp N3     &kp N    &kp LT   &kp Y    &kp F1     &kp F2
    &kp LSHFT   &kp LCTRL    &kp N0    &kp SPC    &trans      &trans
                         >;
                 };
