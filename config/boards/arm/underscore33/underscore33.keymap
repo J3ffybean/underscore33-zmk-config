@@ -37,20 +37,20 @@ behaviors {
         timeout-ms = <50>;
         key-positions = <8 9>;
         bindings = <&kp BKSP>;
-        layers = <0 1 3>;
+        layers = <0 1 3 4>;
     };
     combo_tab {
         timeout-ms = <50>;
         key-positions = <0 1>;
         bindings = <&kp TAB>;
-        layers = <0 3>;
+        layers = <0 3 4>;
 
     };
     combo_esc {
         timeout-ms = <50>;
         key-positions = <1 2>;
         bindings = <&kp ESC>;
-        layers = <0 3>;
+        layers = <0 3 4>;
 
     };
     combo_apos {
@@ -76,7 +76,7 @@ behaviors {
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U    &kp Y   &kp SEMI
    &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RALT E  &hm RCTRL I  &hm RGUI O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &kp RGUI &tog 3
+   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &tog 4 &tog 3
                         >;
                 };
 
@@ -121,7 +121,19 @@ behaviors {
    &kp LSHFT    &kp LCTRL    &kp N0    &kp SPC     &trans      &trans
                         >;
                 };
-
+                gam_layer {
+// -----------------------------------------------------------------------------------------
+// |  Q  |  W  |  F  |  P  |  B   |  J  |  L   |  I  |  O  |  P  |
+// |  A  |  R  |  S  |  T  |  G   |  M  |  N   |  E  |  I  |  O  |
+// |  Z  |  X  |  C  |  D  |  V   |  K  |  H   |  ,  |  .  |  /  |
+//             | CTL | ALT |  ENT | SPC | GUI  | CTL |
+                        bindings = <
+   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U     &kp Y  &kp SEMI
+   &kp A &kp R &kp S &kp T &kp G   &kp M &kp N   &kp E     &kp I  &kp O
+   &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H   &kp COMMA &kp DOT &kp FSLH
+   &kp LSHFT &kp LCTRL &lt 1 RET &kp SPC &trans  &trans
+                        >;
+                };
 
         };
 };
