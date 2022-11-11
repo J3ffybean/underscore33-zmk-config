@@ -60,6 +60,12 @@ behaviors {
         layers = <0>;
 
     };
+    combo_dflay {
+        timeout-ms = <50>;
+        key-positions = <35 36>;
+        bindings = <&to 0>;
+        layers = <0 1 2 3 4>;
+    };
 };
 
 };
