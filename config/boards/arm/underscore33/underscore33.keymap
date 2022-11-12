@@ -60,11 +60,11 @@ behaviors {
         layers = <0>;
 
     };
-    combo_dflay {
+    combo_num {
         timeout-ms = <50>;
         key-positions = <36 38>;
-        bindings = <&to 0>;
-        layers = <3 4>;
+        bindings = <&to 3>;
+        layers = <0 4>;
     };
 };
 
@@ -82,7 +82,7 @@ behaviors {
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U    &kp Y   &kp SEMI
    &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RALT E  &hm RCTRL I  &hm RGUI O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &to 4 &to 3
+   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &to 4 &to 0
                         >;
                 };
 
