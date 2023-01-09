@@ -65,6 +65,13 @@ behaviors {
         key-positions = <34 35>;
         bindings = <&to 3>;
         layers = <0 4>;
+        
+    };
+    combo_plus {
+        timeout-ms = <50>;
+        key-positions = <7 8>;
+        bindings = <&kp PLUS>;
+        layers = <1>;        
     };
 };
 
@@ -124,7 +131,7 @@ behaviors {
    &kp FSLH  &kp MINUS &kp N7   &kp N8      &kp N9     &kp F1    &kp F2    &kp F3    &kp F4     &kp F5
    &kp STAR  &kp PLUS  &kp N4   &kp N5      &kp N6     &kp F6    &kp F7    &kp F8    &kp F9     &kp F10
    &kp DOT   &kp RET   &kp N1   &kp N2      &kp N3     &kp F11   &kp F12   &kp F13   &kp F14    &kp F15
-   &kp LSHFT    &kp LCTRL    &kp N0    &kp SPC     &trans      &trans
+   &kp LCTRL    &kp LALT    &kp N0    &kp SPC     &trans      &trans
                         >;
                 };
                 gam_layer {
@@ -137,7 +144,7 @@ behaviors {
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U     &kp Y  &kp SEMI
    &kp A &kp R &kp S &kp T &kp G   &kp M &kp N   &kp E     &kp I  &kp O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H   &kp COMMA &kp DOT &kp FSLH
-   &kp LSHFT &kp LCTRL &lt 1 RET &kp SPC &mo 3  &trans
+   &kp LSHFT &kp LALT &lt 1 RET &kp SPC &trans  &trans
                         >;
                 };
 
