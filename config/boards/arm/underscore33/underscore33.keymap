@@ -89,7 +89,7 @@ behaviors {
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U    &kp Y   &kp SEMI
    &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &kp G   &kp M &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-   &kp LCTRL &kp LALT &lt 2 SPACE &lt 1 RET &to 4 &to 0
+   &kp LCTRL &kp LALT &lt 2 RET &lt 1 SPC &to 4 &to 0
                         >;
                 };
 
@@ -131,7 +131,7 @@ behaviors {
    &kp FSLH  &kp MINUS &kp N7   &kp N8      &kp N9     &kp F1    &kp F2    &kp F3    &kp F4     &kp F5
    &kp STAR  &kp PLUS  &kp N4   &kp N5      &kp N6     &kp F6    &kp F7    &kp F8    &kp F9     &kp F10
    &kp DOT   &kp RET   &kp N1   &kp N2      &kp N3     &kp F11   &kp F12   &kp F13   &kp F14    &kp F15
-   &kp LCTRL    &kp LALT    &kp N0    &kp SPACE     &trans      &trans
+   &kp LCTRL    &kp LALT    &kp N0    &kp SPC     &trans      &trans
                         >;
                 };
                 gam_layer {
@@ -144,7 +144,7 @@ behaviors {
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L   &kp U     &kp Y  &kp SEMI
    &kp A &kp R &kp S &kp T &kp G   &kp M &kp N   &kp E     &kp I  &kp O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H   &kp COMMA &kp DOT &kp FSLH
-   &kp LSHFT &kp LALT &lt 2 RET &kp SPACE &trans  &trans
+   &kp LSHFT &kp LALT &lt 1 RET &kp SPC &trans  &trans
                         >;
                 };
 
